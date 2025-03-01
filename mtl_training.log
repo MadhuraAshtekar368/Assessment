@@ -1,0 +1,35 @@
+2025-02-28 18:21:44,323 - mtl_trainer - INFO - Backbone initially frozen for gradual unfreezing
+2025-02-28 18:21:44,325 - mtl_trainer - INFO - Starting training for 10 epochs
+2025-02-28 18:21:44,325 - mtl_trainer - INFO - Model parameters: 1,093,136 trainable
+2025-02-28 18:21:55,297 - mtl_trainer - INFO - Backbone initially frozen for gradual unfreezing
+2025-02-28 18:21:55,299 - mtl_trainer - INFO - Starting training for 1 epochs
+2025-02-28 18:21:55,299 - mtl_trainer - INFO - Model parameters: 1,093,136 trainable
+2025-02-28 18:23:52,556 - mtl_trainer - INFO - Epoch 1 Results:
+2025-02-28 18:23:52,557 - mtl_trainer - INFO -   Train Loss: 3.2870, Val Loss: 3.2676
+2025-02-28 18:23:52,557 - mtl_trainer - INFO -   Classification Task:
+2025-02-28 18:23:52,558 - mtl_trainer - INFO -     Train Acc: 0.3312, F1: 0.1703
+2025-02-28 18:23:52,558 - mtl_trainer - INFO -     Val Acc: 0.3359, F1: 0.1759
+2025-02-28 18:23:52,559 - mtl_trainer - INFO -   Sentiment Task:
+2025-02-28 18:23:52,559 - mtl_trainer - INFO -     Train Acc: 0.4181, F1: 0.3334
+2025-02-28 18:23:52,559 - mtl_trainer - INFO -     Val Acc: 0.4484, F1: 0.3582
+2025-02-28 18:23:52,559 - mtl_trainer - INFO -   Ner Task:
+2025-02-28 18:23:52,560 - mtl_trainer - INFO -     Train Acc: 0.1088, F1: 0.1036
+2025-02-28 18:23:52,560 - mtl_trainer - INFO -     Val Acc: 0.1073, F1: 0.1056
+2025-02-28 18:48:57,614 - mtl_trainer - INFO - Backbone initially frozen for gradual unfreezing
+2025-02-28 18:48:57,616 - mtl_trainer - INFO - Starting training for 1 epochs
+2025-02-28 18:48:57,616 - mtl_trainer - INFO - Model parameters: 1,093,136 trainable
+2025-02-28 18:50:53,590 - mtl_trainer - INFO - Epoch 1 Results:
+2025-02-28 18:50:53,591 - mtl_trainer - INFO -   Train Loss: 3.2870, Val Loss: 3.2676
+2025-02-28 18:50:53,591 - mtl_trainer - INFO -   Classification Task:
+2025-02-28 18:50:53,592 - mtl_trainer - INFO -     Train Acc: 0.3312, F1: 0.1703
+2025-02-28 18:50:53,592 - mtl_trainer - INFO -     Val Acc: 0.3359, F1: 0.1759
+2025-02-28 18:50:53,593 - mtl_trainer - INFO -   Sentiment Task:
+2025-02-28 18:50:53,593 - mtl_trainer - INFO -     Train Acc: 0.4181, F1: 0.3334
+2025-02-28 18:50:53,593 - mtl_trainer - INFO -     Val Acc: 0.4484, F1: 0.3582
+2025-02-28 18:50:53,593 - mtl_trainer - INFO -   Ner Task:
+2025-02-28 18:50:53,594 - mtl_trainer - INFO -     Train Acc: 0.1088, F1: 0.1036
+2025-02-28 18:50:53,594 - mtl_trainer - INFO -     Val Acc: 0.1073, F1: 0.1056
+2025-02-28 18:50:55,450 - mtl_trainer - WARNING - Failed to save checkpoint: write(): fd 94 failed with No space left on device
+2025-02-28 18:50:55,451 - mtl_trainer - WARNING - Continuing training without saving checkpoint...
+2025-02-28 18:50:55,452 - mtl_trainer - INFO - Training completed
+2025-02-28 18:50:55,452 - mtl_trainer - INFO - Best validation accuracy: 0.2972
